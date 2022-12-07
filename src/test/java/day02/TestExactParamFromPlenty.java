@@ -2,10 +2,10 @@ package day02;
 
 import static io.restassured.RestAssured.*;
 
-import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;
+import utilities.TestBase;
 
 import java.util.List;
 

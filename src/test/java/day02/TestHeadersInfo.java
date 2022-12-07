@@ -1,8 +1,9 @@
 package day02;
 
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;
+import utilities.TestBase;
+
 import static io.restassured.RestAssured.*;
 import static org.junit.Assert.*;
 

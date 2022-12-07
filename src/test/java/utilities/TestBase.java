@@ -1,4 +1,4 @@
-package day02;
+package utilities;
 
 import io.restassured.RestAssured;
 import org.junit.Before;
