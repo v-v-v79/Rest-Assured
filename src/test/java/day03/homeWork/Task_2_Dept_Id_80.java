@@ -44,10 +44,10 @@ public class Task_2_Dept_Id_80 extends TestBaseJunit5_HR {
 
         response.prettyPrint();
 
-        List<String> jobIds = response.path("job_id");
+        List<String> jobIds = response.path("items.job_id");
         System.out.println(jobIds);
 
-        List<Integer> departmentIds = response.path("department_id");
+        List<Integer> departmentIds = response.path("items.department_id");
         System.out.println(departmentIds);
 
         int count = departmentIds.size();
