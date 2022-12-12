@@ -13,6 +13,7 @@ public class Search {
     // It is called as HAS-A RelationShip
 
      private  int totalElement;
+     /**TODO Ask how did id count totalElement? */
 
 
     public List<Spartan> getContent() {

@@ -5,10 +5,8 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
+public class MRData {
 
-public class Region {
-
-    private int region_id;
-    private String region_name;
-
+    private String total;
+    private String limit;
 }

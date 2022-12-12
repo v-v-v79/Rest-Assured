@@ -5,10 +5,8 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-
-public class Region {
-
-    private int region_id;
-    private String region_name;
+public class ConstructorPOJO {
+    private String constructorId;
+    private String name;
 
 }
