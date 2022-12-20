@@ -6,7 +6,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class ZipSearchFairfax {
+public class ZipSearchCity {
 
     private List<ZipPlace> places;
 
@@ -18,6 +18,7 @@ public class ZipSearchFairfax {
 
     @JsonProperty("state abbreviation")
     private String stateAbbreviation;
+
 
     @JsonProperty("country abbreviation")
     private String countryAbbreviation;

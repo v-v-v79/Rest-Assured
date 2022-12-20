@@ -10,6 +10,7 @@ public class ZipPlace {
     @JsonProperty("place name")
     private String placeName;
 
+
     @JsonProperty("longitude")
     private String longitude;
 
