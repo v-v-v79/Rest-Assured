@@ -1,23 +1,13 @@
-package day12;
+package day13;
 
-import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import utilities.SpartanAuthTestBaseNew;
-import utilities.TestBaseJunit5_Spartans;
-
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
-import static org.junit.jupiter.api.Assertions.*;
 
-public class P03_SpartanWithSpecFromCSV extends SpartanAuthTestBaseNew {
+public class P02_SpartanWithSpecFromCSV extends SpartanAuthTestBaseNew {
 
 
 
